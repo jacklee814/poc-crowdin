@@ -18,6 +18,7 @@ function App() {
       <h1>{t("title")}</h1>
       <div>
         <select
+          value={i18n.language}
           onChange={(e) => {
             i18n.changeLanguage(e.target.value);
           }}
@@ -25,7 +26,7 @@ function App() {
           <option value="en">English</option>
           <option value="ja">Japanese</option>
           <option value="th">Thai</option>
-          <option value="zh-hant">Chinese</option>
+          <option value="zh-Hant">Chinese</option>
         </select>
       </div>
     </>
