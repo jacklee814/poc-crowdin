@@ -19,6 +19,8 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v3
+        with:
+          run_install: false
 
       - name: Build project
         run: pnpm run build
