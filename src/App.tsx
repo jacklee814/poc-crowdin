@@ -15,6 +15,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <h1>{t("welcome")}</h1>
       <h1>{t("title")}</h1>
       <div>
         <select
