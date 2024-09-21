@@ -30,6 +30,8 @@ function App() {
           <option value="zh-Hant">Chinese</option>
         </select>
       </div>
+      <button>{t("button.cancel")}</button>
+      <button>{t("button.confirm")}</button>
     </>
   );
 }

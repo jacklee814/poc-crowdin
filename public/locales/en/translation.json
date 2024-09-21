@@ -1,4 +1,8 @@
 {
     "title": "Hello, world!",
-    "welcome": "Welcome back"
+    "welcome": "Welcome back",
+    "button": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+    }
 }
