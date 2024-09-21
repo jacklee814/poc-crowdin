@@ -26,7 +26,7 @@ jobs:
           script: |
             try {
               const head = `develop`;
-              const base = `master`;
+              const base = `main`;
               const { repo: { owner, repo } } = context;
               const title = `release: ${process.env.DATE}`;
               const body = `## 🗓 When\n\nLet's aim for release at ${process.env.TIME} 🚀`;
@@ -42,7 +42,7 @@ jobs:
             } catch (e) {
               const isExist = e.status === 422 && e.message?.includes('A pull request already exists for ');
               if (isExist) {
-                console.log("A pull request from develop to master already exists.");
+                console.log("A pull request from develop to main already exists.");
                 return;
               }
               throw e;
