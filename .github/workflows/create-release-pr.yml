@@ -1,0 +1,49 @@
+name: Create Release PR
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  create_pr:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set Date and Time
+        run: |
+          echo "DATE=$(date +'%Y/%m/%d')" >> $GITHUB_ENV
+          echo "TIME=$(date +'%H:%M')" >> $GITHUB_ENV
+
+      - name: Create Release PR
+        id: create-pr
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              const head = `develop`;
+              const base = `main`;
+              const { repo: { owner, repo } } = context;
+              const title = `release: ${process.env.DATE}`;
+              const body = `## 🗓 When\n\nLet's aim for release at ${process.env.TIME} 🚀`;
+              const { data: pr } = await github.rest.pulls.create({
+                owner,
+                repo,
+                title,
+                head,
+                base,
+                body
+              });
+              console.log(pr.html_url);
+            } catch (e) {
+              const isExist = e.status === 422 && e.message?.includes('A pull request already exists for ');
+              if (isExist) {
+                console.log("A pull request from develop to main already exists.");
+                return;
+              }
+              throw e;
+            }
