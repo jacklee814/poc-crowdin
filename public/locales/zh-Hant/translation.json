@@ -4,8 +4,8 @@
     "button": {
         "confirm": "確認!",
         "cancel": "取消!",
-        "submit": "提交",
-        "back": "返回"
+        "submit": "提交...",
+        "back": "返回..."
     },
     "notification": {
         "dropdown": {
