@@ -1,10 +1,10 @@
 {
-  "title": "こんにちは、世界中で！",
-  "welcome": "おかえりなさい",
-  "button": {
-    "confirm": "確認",
-    "cancel": "キャンセル",
-    "submit": "送信",
-    "back": "戻る"
-  }
+    "title": "こんにちは、世界中で！",
+    "welcome": "おかえりなさい",
+    "button": {
+        "confirm": "確認",
+        "cancel": "キャンセル",
+        "submit": "送信",
+        "back": "戻る"
+    }
 }
