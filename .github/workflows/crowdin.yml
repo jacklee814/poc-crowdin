@@ -28,7 +28,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           # A numeric ID, found at https://crowdin.com/project/<projectName>/tools/api
-          CROWDIN_PROJECT_ID: "admin-center"
+          CROWDIN_PROJECT_ID: 714759
 
           # Visit https://crowdin.com/settings#api-key to create this token
           CROWDIN_PERSONAL_TOKEN: "9a75bc9cfc97181940f598d540f1af5b927ae418535d81615eac7d0d096a68cd3f757c7c7c06201d"
