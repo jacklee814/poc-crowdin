@@ -4,6 +4,7 @@
     "button": {
         "confirm": "Confirm jp",
         "cancel": "Cancel jp",
-        "submit": "Submit JP"
+        "submit": "Submit JP",
+        "back": "戻る"
     }
 }
