@@ -4,6 +4,7 @@
     "button": {
         "confirm": "確認!",
         "cancel": "取消!",
-        "submit": "Submit Zh-Hant"
+        "submit": "Submit Zh-Hant",
+        "back": "Back"
     }
 }
