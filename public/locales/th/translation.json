@@ -3,8 +3,6 @@
     "welcome": "Welcome back th",
     "button": {
         "confirm": "Confirm th",
-        "cancel": "Cancel th",
-        "submit": "Submit Thai",
-        "back": "Back"
+        "cancel": "Cancel th"
     }
 }

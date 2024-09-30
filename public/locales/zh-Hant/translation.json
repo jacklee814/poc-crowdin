@@ -1,10 +1,8 @@
 {
-  "title": "哈囉，世界！",
-  "welcome": "歡迎回來",
-  "button": {
-    "confirm": "確認!",
-    "cancel": "取消!",
-    "submit": "提交",
-    "back": "返回"
-  }
+    "title": "Hello, world! zh-hant!!!",
+    "welcome": "Welcome back zh-hant",
+    "button": {
+        "confirm": "確認!",
+        "cancel": "取消!"
+    }
 }
