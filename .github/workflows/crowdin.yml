@@ -2,11 +2,11 @@ name: Crowdin Action
 
 on:
   push:
-    branches: [develop, main]
+    paths: ["public/locales/**"]
+    branches: [main]
 
 jobs:
-  synchronize-with-crowdin:
-    permissions: write-all
+  crowdin-upload:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,13 +19,6 @@ jobs:
           upload_sources: true
           upload_translations: true
           download_translations: false
-          create_pull_request: false
         env:
-          # A classic GitHub Personal Access Token with the 'repo' scope selected (the user should have write access to the repository).
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-          # A numeric ID, found at https://crowdin.com/project/<projectName>/tools/api
           CROWDIN_PROJECT_ID: 714759
-
-          # Visit https://crowdin.com/settings#api-key to create this token
           CROWDIN_PERSONAL_TOKEN: "9a75bc9cfc97181940f598d540f1af5b927ae418535d81615eac7d0d096a68cd3f757c7c7c06201d"
