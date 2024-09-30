@@ -6,5 +6,18 @@
         "cancel": "キャンセル",
         "submit": "送信",
         "back": "戻る"
+    },
+    "notification": {
+        "dropdown": {
+            "member": {
+                "import": {
+                    "success": {
+                        "content": {
+                            "validationFailedMembers": ""
+                        }
+                    }
+                }
+            }
+        }
     }
 }
