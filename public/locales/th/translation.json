@@ -4,6 +4,7 @@
     "button": {
         "confirm": "Confirm th",
         "cancel": "Cancel th",
-        "submit": "Submit Thai"
+        "submit": "Submit Thai",
+        "back": "Back"
     }
 }
