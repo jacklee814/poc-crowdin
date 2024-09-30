@@ -3,6 +3,8 @@
     "welcome": "おかえりなさい",
     "button": {
         "confirm": "Confirm jp",
-        "cancel": "Cancel jp"
+        "cancel": "Cancel jp",
+        "submit": "Submit JP",
+        "back": "戻る"
     }
 }
