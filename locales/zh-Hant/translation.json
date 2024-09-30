@@ -1,10 +1,23 @@
 {
-  "title": "哈囉，世界！",
-  "welcome": "歡迎回來",
-  "button": {
-    "confirm": "確認!",
-    "cancel": "取消!",
-    "submit": "提交",
-    "back": "返回"
-  }
+    "title": "哈囉，世界！",
+    "welcome": "歡迎回來",
+    "button": {
+        "confirm": "確認!",
+        "cancel": "取消!",
+        "submit": "提交",
+        "back": "返回"
+    },
+    "notification": {
+        "dropdown": {
+            "member": {
+                "import": {
+                    "success": {
+                        "content": {
+                            "validationFailedMembers": "匯入失敗：{{count, thousandth}} 聯絡人"
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
