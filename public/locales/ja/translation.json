@@ -2,22 +2,8 @@
     "title": "こんにちは、世界中で！",
     "welcome": "おかえりなさい",
     "button": {
-        "confirm": "確認",
+        "confirm": "確認ba",
         "cancel": "キャンセル",
-        "submit": "送信",
         "back": "戻る"
-    },
-    "notification": {
-        "dropdown": {
-            "member": {
-                "import": {
-                    "success": {
-                        "content": {
-                            "validationFailedMembers": ""
-                        }
-                    }
-                }
-            }
-        }
     }
 }
