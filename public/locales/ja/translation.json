@@ -2,7 +2,8 @@
     "title": "こんにちは、世界中で！",
     "welcome": "おかえりなさい",
     "button": {
-        "confirm": "確認",
-        "cancel": "キャンセル"
+        "confirm": "確認ba",
+        "cancel": "キャンセル",
+        "back": "戻る"
     }
 }
