@@ -4,20 +4,6 @@
     "button": {
         "confirm": "Confirm th",
         "cancel": "Cancel th",
-        "submit": "Submit Thai",
         "back": "Back Th"
-    },
-    "notification": {
-        "dropdown": {
-            "member": {
-                "import": {
-                    "success": {
-                        "content": {
-                            "validationFailedMembers": "匯入失敗：{{count, thousandth}} 聯絡人 TH"
-                        }
-                    }
-                }
-            }
-        }
     }
 }
