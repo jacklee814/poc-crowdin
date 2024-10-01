@@ -3,6 +3,7 @@
     "welcome": "Welcome back th",
     "button": {
         "confirm": "Confirm th",
-        "cancel": "Cancel th"
+        "cancel": "Cancel th",
+        "back": "Back Th"
     }
 }
