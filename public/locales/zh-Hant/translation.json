@@ -3,7 +3,6 @@
     "welcome": "歡迎回來",
     "button": {
         "confirm": "確認!",
-        "cancel": "取消!",
-        "back": "返回..."
+        "cancel": "取消!"
     }
 }
