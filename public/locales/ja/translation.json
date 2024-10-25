@@ -3,7 +3,6 @@
     "welcome": "おかえりなさい",
     "button": {
         "confirm": "確認ba",
-        "cancel": "キャンセル",
-        "back": "戻る"
+        "cancel": "キャンセル"
     }
 }
