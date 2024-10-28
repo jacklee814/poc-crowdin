@@ -3,8 +3,6 @@
     "welcome": "Welcome back",
     "button": {
         "confirm": "Confirm",
-        "cancel": "Cancel",
-        "back": "Back"
-    },
-    "broadcast": "broadcast"
+        "cancel": "Cancel"
+    }
 }
