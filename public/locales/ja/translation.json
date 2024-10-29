@@ -1,8 +1,10 @@
 {
-    "title": "こんにちは、世界中で！",
-    "welcome": "おかえりなさい 1025",
-    "button": {
-        "confirm": "確認ba",
-        "cancel": "キャンセル"
-    }
+  "title": "こんにちは、世界中で！",
+  "welcome": "おかえりなさい 1025",
+  "button": {
+    "confirm": "確認ba",
+    "cancel": "キャンセル"
+  },
+  "Demo 1025": "Demo 1028",
+  "Demo 1028 afteroom": "Demo 1028 afternoon"
 }
