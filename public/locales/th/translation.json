@@ -1,8 +1,10 @@
 {
-    "title": "Hello, world! th",
-    "welcome": "Welcome back th 1025",
-    "button": {
-        "confirm": "Confirm th",
-        "cancel": "Cancel th"
-    }
+  "title": "Hello, world! th",
+  "welcome": "Welcome back th 1025",
+  "button": {
+    "confirm": "Confirm th",
+    "cancel": "Cancel th"
+  },
+  "Demo 1025": "Demo 1028",
+  "Demo 1028 afteroom": "Demo 1028 afternoon"
 }
