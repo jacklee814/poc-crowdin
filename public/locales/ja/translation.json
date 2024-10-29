@@ -1,23 +1,10 @@
 {
     "title": "こんにちは、世界中で！",
-    "welcome": "おかえりなさい",
+    "welcome": "おかえりなさい 1025",
     "button": {
-        "confirm": "確認",
-        "cancel": "キャンセル",
-        "submit": "送信",
-        "back": "戻る"
+        "confirm": "確認ba",
+        "cancel": "キャンセル"
     },
-    "notification": {
-        "dropdown": {
-            "member": {
-                "import": {
-                    "success": {
-                        "content": {
-                            "validationFailedMembers": ""
-                        }
-                    }
-                }
-            }
-        }
-    }
+    "Demo 1025": "Demo 1028",
+    "Demo 1028 afteroom": "Demo 1028 afternoon"
 }
